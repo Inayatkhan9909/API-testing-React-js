@@ -1,0 +1,40 @@
+
+.news_overall{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 20%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.author,
+.description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

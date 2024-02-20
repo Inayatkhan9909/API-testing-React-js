@@ -1,0 +1,29 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: chartreuse;
+    align-items: center;
+    
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    list-style: none;
+}
+
+.content ul li a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+.content ul li a:hover {
+
+    color: blue;
+
+}
